@@ -71,11 +71,12 @@ else:
 # Create a variable called 'changeMyMind' and set it equal to true. 
 # Check to see if changeMyMind is set to true or false, if it is true, change the status to false, if it is false, change the status to true.
 
-change_my_mind = True
-# print(change_my_mind)
-print(not change_my_mind)
-
-
+change_my_mind = False
+if change_my_mind == False:
+    change_my_mind = True
+else: 
+    change_my_mind = False
+print(change_my_mind)
 # ADVANCED
 
 # For problems 12-15, use the following line of code:
